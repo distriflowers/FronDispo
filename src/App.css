@@ -1,0 +1,107 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ),url("./bg4.jpg");
+  background-position: center;
+  background-size: cover;
+  /* background-color: #ddd; */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-n2pld{
+  /* margin-top:162px !important; */
+}
+.login-items, .chakra-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.selecType{
+  height: 35px;
+  width:200px;
+  padding-left:10px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.select-items{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.red{
+  color:red !important;
+}
+.blue{
+  color:blue !important;
+}
+.green{
+  color:green !important;
+}
+.bg-red{
+  background-color: red !important;
+}
+.bg-blue{
+  background-color: blue !important;
+}
+.bg-green{
+  background-color: green !important;
+}
+.messageContent{
+  border-radius: 5px;
+  padding:3px 5px;
+}
+
+.Sender-Name{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sender-Name p{
+  text-align: center;
+  color:white !important;
+  font-weight: bold;
+}
+.admin{
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+}
+.admin-input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.admin-input input{
+  margin-right:10px;
+}
+.admin-input p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:15px;
+}
